@@ -8,7 +8,7 @@ our $VERSION = '1.03';
 use File::Spec ();
 use Config ();
 
-our $VERBOSE;
+our $VERBOSE=1;
 
 # modules which dosn't exist in CPAN
 our %IGNORE = map { $_ => 1 } (
